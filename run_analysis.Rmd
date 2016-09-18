@@ -1,0 +1,31 @@
+---
+title: "run_analysis"
+author: "Aurelien Fauvel"
+date: "17 septembre 2016"
+output: html_document
+---
+
+
+1st step: Reading data 
+
+1- Setting the path to the folder
+It assumes that the working directory contains the folder "UCI HAR Dataset"
+```{
+path_to_folder <- file.path("UCI HAR Dataset")
+}
+```
+
+2- Reading generic information (features and activity_labels)
+```{
+features <- read.table(paste(path_to_folder, "/", "features.txt", sep = ""))
+activity_labels <- read.table(paste(path_to_folder, "/", "activity_labels.txt", sep = ""))
+}
+```
+
+3- Reading test set
+```{
+
+}
+
+```
+
